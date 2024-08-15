@@ -15,8 +15,8 @@ function palavraAleatoria() {
 }
 
 function inicializaCores() {
-  background("white");
-  fill("black");
+  background("black");
+  fill("white");
   textSize(64);
   textAlign(CENTER, CENTER);
 }
@@ -32,3 +32,4 @@ function draw() {
   inicializaCores();
 
   let parcial = palavraParcial(0, width);
+}
