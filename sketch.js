@@ -32,4 +32,7 @@ function draw() {
   inicializaCores();
 
   let parcial = palavraParcial(0, width);
+    
+  text(parcial, 200, 200);
+  
 }
